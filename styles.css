@@ -227,7 +227,14 @@ Second Page : All Matches
 }
 
 
+.all-groups-content {
+    max-width: 80%;
+}
 
+.all-groups-content img {
+    width: 90%;
+    padding: 0 5%;
+}
 
 
 
@@ -445,6 +452,14 @@ Second Page : All Matches
 
         grid-template-columns: 100%;
 
-
-
     }
+
+    .all-groups-content {
+        max-width: 100%;
+    }
+
+    .all-groups-content img {
+        width: 100%;
+        padding: 0 2%;
+    }
+}
