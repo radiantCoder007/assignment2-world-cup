@@ -1,0 +1,150 @@
+/* fonts imported */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* common-styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper-container {
+    max-width: 1320px;
+    /* display: flex; */
+    margin: auto;
+}
+
+
+.banner-area {
+    background-color: #161616;
+    border-radius: 30px;
+    width: 100%;
+    height: 100vh;
+    padding: 2% 5%;
+}
+
+.banner-content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.banner-left,
+.banner-right {
+    max-width: 50%;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.banner-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 3em;
+}
+
+.banner-left a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 16px 25px;
+    background-color: #DD0000;
+    border-radius: 5px;
+    transition: 0.4s;
+
+}
+
+.banner-left a:hover {
+    font-size: 24px;
+    background-color: #a30101;
+    font-weight: bold;
+
+}
+
+.banner-left a img {
+    padding: 0 10px;
+}
+
+/* Styling Blogs */
+
+
+.blogs-container {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.sidebar {
+    max-width: 250px;
+    max-height: 320px;
+    background-color: #161616;
+    border-radius: 10px;
+
+}
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    /* padding-right: 3rem; */
+    gap: 2rem;
+}
+
+.single-blog {
+    width: 312px;
+}
+
+.blog-image {
+    width: 312px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.blog-caption {
+    margin: 10px 0;
+}
+
+.blog-caption span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.blog-caption {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+    margin: 10px;
+}
+
+.reactions,
+.duration,
+.comment {
+    display: flex;
+}
+
+.duration,
+.comment {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #161616b3;
+}
