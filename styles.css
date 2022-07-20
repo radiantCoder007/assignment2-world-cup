@@ -203,6 +203,35 @@ footer hr {
     display: none;
 }
 
+
+/* ===============================================
+Second Page : All Matches
+=================================================== */
+.flags-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-left: 3rem;
+}
+
+.single-flag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    padding: 30px 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
 /* media queries */
 
 @media screen and (min-width:780px) and (max-width:1200px) {
@@ -256,6 +285,14 @@ footer hr {
         margin-left: auto;
         /* margin-right: 15%; */
     }
+
+    .flags-content {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
 }
 
 /* mobile screens */
@@ -401,4 +438,13 @@ footer hr {
         padding: 1em;
     }
 
-}
+    /* for second page */
+
+
+    .flags-content {
+
+        grid-template-columns: 100%;
+
+
+
+    }
